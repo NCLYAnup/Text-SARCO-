@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Text-SARCO-/static/css/main.1a78b51b.css",
+    "main.js": "/Text-SARCO-/static/js/main.e608e126.js",
+    "index.html": "/Text-SARCO-/index.html",
+    "main.1a78b51b.css.map": "/Text-SARCO-/static/css/main.1a78b51b.css.map",
+    "main.e608e126.js.map": "/Text-SARCO-/static/js/main.e608e126.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a78b51b.css",
+    "static/js/main.e608e126.js"
+  ]
+}
