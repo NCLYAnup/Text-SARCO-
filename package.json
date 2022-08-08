@@ -1,6 +1,6 @@
 {
   "name": "utils",
-  "homepage": "https://ritesh123dx.github.io/Text-Utilities/",
+  "homepage": "http://NCLYAnup.github.io/Text-SARCO-",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^5.0.1",
     "sentiment": "^5.0.2",
     "tesseract.js": "^2.1.4",
     "web-vitals": "^0.2.4"
@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -34,8 +34,8 @@ function TextAnalyzer() {
 
             <textarea className="form-control w-75 m-auto" rows="7" onChange={e=>getSentiment(e.target.value)}></textarea>
             <br />
-            <h5>Setiment Score : {sentimentScore}</h5>
-            <h5>Setiment Type : {sentimentType}</h5>
+            <h5>Sentiment Score : {sentimentScore}</h5>
+            <h5>Sentiment Type : {sentimentType}</h5>
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-4 offset-md-2">
                     <h5>Positives : </h5> {sentimentPostive.map(element => {
